@@ -2,8 +2,12 @@
 
 body{
   background-color: black ;
+  margin: 0;
 }
 
+a{
+  text-decoration: none;
+}
 .container{
   height: 300px;
   width: 300px;
@@ -31,7 +35,7 @@ p{
 }
 
 button{
-  background-color: #459e85;
+  background-color: #00a88f;
   border: 1px solid transparent;
   border-radius: 4px;
   font-family: 'Roboto', sans-serif;
@@ -43,8 +47,26 @@ button{
 }
 
 #header{
-  width: 100vw;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between ;
+  background-color: white;
+}
+
+#logo{
+  font-size: 26px;
+  font-weight: bolder;
+  color: #00a88f;
+}
+
+#menu{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+#menu a{
+  color: black; 
+  padding-right: 20px; 
 }
