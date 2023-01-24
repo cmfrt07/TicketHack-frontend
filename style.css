@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 
 body{
-  background-color: black ;
+  background-color: #eef0f0 ;
   margin: 0;
 }
 
@@ -10,9 +10,13 @@ a{
 }
 .container{
   height: 300px;
-  width: 300px;
+  width: 500px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
@@ -34,17 +38,6 @@ p{
   color: white;
 }
 
-button{
-  background-color: #00a88f;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 300; 
-  color: white;
-  width: 100%;
-  padding: 10px;
-}
 
 #header{
   padding-left: 20px;
@@ -69,4 +62,71 @@ button{
 #menu a{
   color: black; 
   padding-right: 20px; 
+}
+
+#boxecenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  flex-direction: column;
+  
+}
+
+#blue-container {
+width: 500px;
+height: 50px;
+background-color: #00153e;
+border-radius: 0px 0px 10px 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+#blue-container p {
+margin-left: 20px;
+}
+
+.trajet {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 300px;
+height: 30px;
+background-color:#f6f1f1;
+margin: 10px 0 10px 0;
+padding: 5px;
+}
+.trajet p{
+  color: black;
+}
+
+.total {
+color: #eef0f0;
+  }
+
+#Mycart {
+  color: black;
+}
+.button-x {
+  background-color: #00a88f;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: 300; 
+  color: white;
+  padding: 3px;
+  margin: 5px;
+}
+.button-purchase {
+  background-color: #00a88f;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  font-weight: 300; 
+  color: white;
+  padding: 3px;
+  margin-right: 20px;
 }
