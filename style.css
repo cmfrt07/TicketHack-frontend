@@ -135,3 +135,19 @@ input-border input{
 .date-margin{
   margin-bottom: 50px;
 }
+
+.booking-container{
+  margin-top: 20%;
+  width: 50vw;
+  height: 20vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.booking-container h3{
+  color: black;
+}
