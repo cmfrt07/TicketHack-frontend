@@ -218,5 +218,49 @@ color: black;
 }
 
 
+#searchlist {
+  overflow-y: scroll;
 
+}
 
+.tripname {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5eeee;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.tripname p {
+  color: black;
+
+}
+
+.tripname span {
+  display: none;
+
+}
+
+.pinkbox {
+  width: 80%;
+  border-radius: 10px;
+  background-color: #f5eeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.pinkbox p {
+color: black;
+
+}
+
+.booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
